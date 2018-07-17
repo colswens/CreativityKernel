@@ -1,0 +1,24 @@
+.searchBar {
+  width: 200px;
+  height: 50px;
+  background-color: #ededed;
+  border-radius: 13px;
+  float: right;
+  margin-right: 150px;
+}
+
+#searchIcon {
+  background:url('img/search.png') center center no-repeat;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 13px;
+  background-size: 25px 25px;
+}
+
+#searchRestState {
+  text-align: center;
+  margin-right: 13px;
+  font-family: "Helvetica", Arial, sans-serif;
+}
