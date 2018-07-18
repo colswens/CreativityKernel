@@ -10,6 +10,11 @@ html {
   font-weight:normal;
 }
 
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .projectCard{
   position: relative;
   margin: 50px;
