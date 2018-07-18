@@ -9,7 +9,6 @@
 }
 
 #searchIcon {
-  background:url('img/search.png') center center no-repeat;
   width: 25px;
   height: 25px;
   float: left;
@@ -18,35 +17,17 @@
   background-size: 25px 25px;
 }
 
-#searchRestState {
+
+#searchText {
   text-align: center;
   margin-right: 13px;
   font-family: "Helvetica", Arial, sans-serif;
+  opacity: 0.3;
 }
 
-h2 {
-  font-family: sans-serif;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.projectCard{
-  margin: 50px;
-  height: 350px;
-  width: 300px;
-  background-color: #EDEDED;
-}
-
-.title{
-  padding: 50px;
-}
-
-.bodyText{
-  margin-top: -60px;
-  padding-left: 50px;
-  padding-right: 50px;
-  font-family: sans-serif;
-  font-size: 18px;
-  font-weight:normal;
-
+#searchText .focused{
+  text-align: center;
+  margin-right: 13px;
+  font-family: "Helvetica", Arial, sans-serif;
+  opacity: 1
 }
