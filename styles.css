@@ -4,7 +4,14 @@ h2 {
   font-weight: bold;
 }
 
+html {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight:normal;
+}
+
 .projectCard{
+  position: relative;
   margin: 50px;
   height: 350px;
   width: 300px;
@@ -19,7 +26,25 @@ h2 {
   margin-top: -60px;
   padding-left: 50px;
   padding-right: 50px;
-  font-family: sans-serif;
-  font-size: 18px;
-  font-weight:normal;
+}
+
+.bookmark{
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
+.usersInAProject{
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+
+#userIcon{
+float: left;
+}
+
+#numberOfUsers{
+margin-left: 5px;
+float: left;
 }
