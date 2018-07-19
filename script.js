@@ -1,2 +1,6 @@
-//for the script
-//https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flex-wrap_wrap
+// var cards = "";
+// for (var i = 0; i < 15; i++) {
+//    cards += '<div class="projectCard"></div>';
+// }
+//
+// document.getElementById("projects").innerHTML = cards;
